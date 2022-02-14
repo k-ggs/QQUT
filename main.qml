@@ -1,8 +1,10 @@
 import QtQuick
-
-Window {
+import "./FrameLess"
+FrameLessWindow{
     width: 640
     height: 480
     visible: true
-    title: qsTr("Hello World")
+    title: qsTr("qml UI 模板")
+
+
 }
