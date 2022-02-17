@@ -1,0 +1,9 @@
+[submodule "3rdpart/libserialport"]
+	path = 3rdpart/libserialport
+	url = git://sigrok.org/libserialport
+[submodule "3rdpart/libmodbus"]
+	path = 3rdpart/libmodbus
+	url = https://github.com/stephane/libmodbus.git
+[submodule "3rdpart/json"]
+	path = 3rdpart/json
+	url = https://github.com/nlohmann/json.git

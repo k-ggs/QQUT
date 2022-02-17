@@ -1,7 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>main.qml</file>
-        <file>FrameLess/FrameLessWindow.qml</file>
-        <file>FrameLess/FrameLessTitleBar.qml</file>
-    </qresource>
-</RCC>

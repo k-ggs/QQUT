@@ -1,0 +1,21 @@
+module assert
+CustomWindow 1.0 qml/FramelessWindow/CustomWindow.qml
+ResizeHandles 1.0 qml/FramelessWindow/CustomWindow.qml
+Titlebar 1.0 qml/FramelessWindow/CustomWindow.qml
+WindowButton 1.0 qml/FramelessWindow/CustomWindow.qml
+WindowButtonMacOS 1.0 qml/FramelessWindow/WindowButtonMacOS.qml
+
+DecentMenuItem 1.0 qml/PlatformDependent/DecentMenuItem.qml
+Menubar 1.0 qml/PlatformDependent/Menubar.qml
+MenubarMacOS 1.0 qml/PlatformDependent/MenubarMacOS.qml
+
+
+Icon 1.0 qml/Widgets/Icon.qml
+Shadow 1.0 qml/Widgets/Shadow.qml
+Window 1.0 qml/Widgets/Window.qml
+
+
+ About 1.0 qml/Windows/About.qml
+ Acknowledgements 1.0 qml/Windows/Acknowledgements.qml
+ Donate 1.0 qml/Windows/Donate.qml
+ MainWindow 1.0 qml/Windows/MainWindow.qml

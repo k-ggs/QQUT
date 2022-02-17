@@ -1,19 +1,21 @@
-#include <QGuiApplication>
-#include <QQmlApplicationEngine>
+﻿#include<stdio.h>
+#include<QApplication>
+#include<QQmlApplicationEngine>
+#include<QQmlContext>
+#include<QDebug>
+#include<QFont>
+#include"appmange.h"
+int main(int arg,char*args[]){
 
 
-int main(int argc, char *argv[])
-{
-    QGuiApplication app(argc, argv);
+ // qDebug()<<"USE OPENGL"<< qputenv("QSG_RHI_BACKEND","opengl");//https://doc.qt.io/qt-6/qtcharts-changes-qt6.html  use opengl
 
-    QQmlApplicationEngine engine;
-    const QUrl url(u"qrc:/main.qml"_qs);
-    QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
-                     &app, [url](QObject *obj, const QUrl &objUrl) {
-        if (!obj && url == objUrl)
-            QCoreApplication::exit(-1);
-    }, Qt::QueuedConnection);
-    engine.load(url);
+  QApplication app(arg,args);
 
-    return app.exec();
+  AppMange AppMange_(arg,args);
+
+
+
+
+  return app.exec();
 }

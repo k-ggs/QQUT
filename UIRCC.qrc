@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ui/main.qml</file>
+        <file>ui/collect/DashBoard/ServoStatesPanel.qml</file>
+        <file>ui/collect/DashBoard/DashBoardGrid.qml</file>
+    </qresource>
+</RCC>
